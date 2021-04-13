@@ -72,16 +72,16 @@ body {
   height: 100%;
 
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-flow: column;
   align-items: center;
   justify-items: center;
 }
-.right-list a {
+.right-list .a-links {
   text-decoration: none;
   color: var(--navText);
 }
 
-.right-list a:hover {
+.right-list .a-links:hover {
   color: var(--navBtn);
 }
 .right-list a:active {
@@ -93,6 +93,8 @@ body {
   background-color: #fff;
   color: var(--navBtn);
   border: 1px solid var(--navBtn);
+  border-radius: 3px;
+  padding: 5px 14px;
 
   transition: 0.4s;
 }
@@ -101,3 +103,5 @@ body {
   background-color: var(--navBtn);
   color: #fff;
 }
+
+/*  HERO SECTION */

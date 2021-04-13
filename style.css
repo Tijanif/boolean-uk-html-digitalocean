@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+/* HEADER AREA */
+.header {
+  height: 65px;
+  position: fixed;
+  width: 100%;
+  top: 41px;
+
+  border-bottom: 1px solid black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.header > * {
+  border: 1px solid grey;
+}
+/* logo */
+.logo {
+  text-align: center;
+  padding-top: 19px;
+
+  padding-left: 80px;
+}
+.logo img {
+  max-height: 1.75rem;
+}
+
+/* center links */
+.center

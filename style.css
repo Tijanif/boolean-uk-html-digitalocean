@@ -13,6 +13,13 @@ body {
   height: 100vh;
 }
 
+.wraper {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
 /* HEADER AREA */
 .header {
   height: 65px;

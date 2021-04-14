@@ -15,7 +15,7 @@ body {
 
 /* wraper */
 .wraper {
-  max-width: 600px;
+  max-width: 900px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 1rem;
@@ -46,9 +46,9 @@ body {
 /* logo */
 .logo {
   text-align: center;
-  /* padding-top: 19px;
+  padding-top: 19px;
 
-  padding-left: 100px; */
+  padding-left: 100px;
 }
 .logo img {
   max-height: 1.75rem;
@@ -238,4 +238,96 @@ button {
 
 .business-icons img {
   width: 100%;
+}
+
+/* DEPLOY SECTION */
+.deploy-scale {
+  color: #9da5b5;
+}
+.deploy-scale .top-part {
+  text-align: center;
+  padding: 5px;
+}
+
+.deploy-scale .header2 {
+  padding-top: 40px;
+  font-size: 2.5rem;
+  color: #031c4e;
+}
+
+/* lower section with the list and items */
+.deploy-scale .lower-deploy {
+  margin-top: 50px;
+  /* max-width: 900px; */
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+  place-items: center;
+}
+
+/* left */
+.deploy-scale .lower-deploy .left ul {
+  list-style: none;
+  border-left: 2px solid #9da5b5;
+  padding-left: 10px;
+  height: 200px;
+}
+.deploy-scale .lower-deploy .left ul li {
+  margin-bottom: 20px;
+  font-size: 1.2em;
+}
+
+/* right */
+.deploy-scale .lower-deploy .right {
+  padding: 5px;
+}
+
+.deploy-scale .lower-deploy .right .right-box {
+  margin: 10px;
+}
+.deploy-scale .lower-deploy .right .right-box h3 {
+  color: #031c4e;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* DESING FOR DEVELOPERS */
+.design {
+  background-color: #f3f5fa;
+  display: grid;
+  place-items: center;
+  color: #717171;
+}
+.design .design-h2 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 2.2rem;
+  color: #031c4e;
+}
+.design .design-p {
+  margin-bottom: 20px;
+}
+.design img {
+  width: 50%;
+  margin: 20px;
+}
+.design .desing-p-under-img {
+  color: #031c4e;
+  margin-bottom: 10px;
+}
+/* dots */
+.dot {
+  margin-top: 30px;
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
 }

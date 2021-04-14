@@ -25,10 +25,17 @@ body {
 /* Two Grid column */
 .grid-two-column {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 3fr 2fr;
 
   /* align-items: center;
   justify-content: center; */
+}
+
+.second-Headers {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  font-size: 2.5rem;
+  color: #031c4e;
 }
 /* HEADER AREA */
 .header {
@@ -136,6 +143,11 @@ body {
   text-align: center;
 }
 
+.hero-content {
+  height: 100%;
+  align-items: center;
+  gap: 24px;
+}
 /* form */
 .form img {
   width: 15px;
@@ -145,15 +157,14 @@ body {
 /* text - section */
 .text-section {
   text-align: left;
-  padding-top: 65px;
 
   color: #bacdff;
-  /* font-size: 1.4rem; */
+  font-size: 1.4rem;
 }
 
 .text-section h1 {
   color: #fff;
-  /* font-size: 3.5rem; */
+  font-size: 3.5rem;
 }
 
 .text-section-p {
@@ -162,10 +173,6 @@ body {
 /* form section */
 
 .form-container {
-  /* padding-top: 65px;
-  padding-bottom: 90px; */
-  /* margin-left: 80px; */
-  width: 300px;
 }
 
 .form {
@@ -176,12 +183,12 @@ body {
 .form .first-h2 {
   color: #031c4e;
 
-  font-size: 1.9rem;
+  font-size: 1.6rem;
 }
 
 .form .second-h2 {
   color: #0e69ff;
-  font-size: 1.9rem;
+  font-size: 1.6rem;
 }
 
 .inputs-btn {
@@ -219,8 +226,8 @@ button {
 }
 
 .inovative-p {
-  margin-top: 35px;
-  margin-bottom: 45px;
+  padding-top: 45px;
+  padding-bottom: 45px;
   text-transform: uppercase;
 }
 
@@ -249,11 +256,11 @@ button {
   padding: 5px;
 }
 
-.deploy-scale .header2 {
+/* .deploy-scale .header2 {
   padding-top: 40px;
   font-size: 2.5rem;
   color: #031c4e;
-}
+} */
 
 /* lower section with the list and items */
 .deploy-scale .lower-deploy {
@@ -297,12 +304,12 @@ button {
   place-items: center;
   color: #717171;
 }
-.design .design-h2 {
+/* .design .design-h2 {
   padding-top: 30px;
   padding-bottom: 30px;
   font-size: 2.2rem;
   color: #031c4e;
-}
+} */
 .design .design-p {
   margin-bottom: 20px;
 }
@@ -340,12 +347,12 @@ button {
   padding-bottom: 25px;
 }
 
-.business-features .business-h2 {
+/* .business-features .business-h2 {
   padding-top: 30px;
   padding-bottom: 30px;
   font-size: 2.2rem;
   color: #031c4e;
-}
+} */
 
 .business-features .business-boxes {
   display: grid;
@@ -374,6 +381,29 @@ button {
 
 .services .services-h2 {
   color: #fff;
-  margin-bottom: 35px;
-  font-size: 2.1rem;
+  /* margin-bottom: 35px;
+  font-size: 2.1rem; */
 }
+
+.services .services-boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+
+  border: 3px solid black;
+}
+
+.services .services-boxes .services-boxes-left {
+  border: 3px solid pink;
+}
+.services .services-boxes .services-boxes-right {
+  border: 3px solid pink;
+}
+
+.services .services-boxes .services-boxes-left .services-box-left-row {
+  display: grid;
+  grid-template-columns: 50px 1fr auto;
+}
+
+/* text-align: start;
+margin-left: 50px; */
